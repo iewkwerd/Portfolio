@@ -1,0 +1,23 @@
+{
+  "name": "portafolio-server",
+  "version": "1.0.0",
+  "description": "Backend API para el portafolio personal de Yanelly Michelena",
+  "author": "Yanelly Michelena",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "resend": "^6.18.1",
+    "zod": "^4.4.3"
+  }
+}
